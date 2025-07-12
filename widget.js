@@ -1,7 +1,6 @@
-import * as SDK from "azure-devops-extension-sdk";
+VSS.init({ explicitNotifyLoaded: true });
 
-SDK.init();
-
-SDK.ready().then(() => {
+VSS.ready().then(() => {
   document.getElementById("widget-container").innerText = "Hello from your widget!";
+  VSS.notifyLoadSucceeded();
 });

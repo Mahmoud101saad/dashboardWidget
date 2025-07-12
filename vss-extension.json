@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "name": "My First Set of Widgets",
     "description": "Samples containing different widgets extending dashboards",
-    "publisher": "fabrikam",
+    "publisher": "MohamedAdelAbbas",
     "categories": ["Azure Boards"],
     "targets": [
         {
